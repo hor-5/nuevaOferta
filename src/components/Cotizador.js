@@ -145,7 +145,7 @@ export default function Cotizador(){
                 <TabList>
                   {products.map(product => {
                     return (
-                      <Tab color='blackalpha' key={product.id}>{product.name}</Tab>
+                      <Tab onClick={showToastProduct} color='blackalpha' key={product.id}>{product.name}</Tab>
                     )
                   }
                   )}
