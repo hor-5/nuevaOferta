@@ -66,7 +66,7 @@ export default function Cotizador(){
         title: 'Cantidad de decodificadores excedida',
         description: ''+msg,
         status: 'info',
-        duration: 3000,
+        duration: 2000,
         isClosable: true,
       })
     }
