@@ -65,7 +65,7 @@ export default function TutorialT3() {
                         <TabPanel>
                             <Text fontSize='md' fontWeight='600' p={2} aling='center'>
                                 Para ADSL el costo de instalación sigue siendo $4000.<br />
-                                Hay que cargar manualmente el mes gratis como siempre, y al validar y calcular aplica el bono automaticamente "Promo Individuo 1x100%".<br />
+                                Hay que cargar manualmente el mes gratis como siempre, y al validar y calcular aplica el bono de 23 meses automaticamente "Promo Individuo 1x100%".<br />
                                 Si no lo tildan no pasa nada, lo aplica igual, esto es solamente para poder visualizarlo.
                                 Para que se visualice ok el bono de los 3 meses gratis de TV, pueden tildar "mostrar detalle de precios".
                                 $2000 por 24 meses normalmente y $2500 si es zona de competencia.<br/>
@@ -92,7 +92,7 @@ export default function TutorialT3() {
                                 Tv Digital (31 canales) o TV Max (93 canales).<br />
                                 Se puede ofrecer con hasta 3 decos o sin decos (Movistar play) y el valor adicional
                                 por decodificador es de $590.
-                                Ya viene configurado el descuento por 3 meses en la tv.
+                                Ya viene configurado el descuento por 3 meses en la TV (El mes gratis aplica solo para tv no para fibra).
                                 <br />
                                 <br />
                                 Si el cliente quiere agregar algún Pack premium:<br />

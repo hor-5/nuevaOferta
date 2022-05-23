@@ -35,9 +35,9 @@ export default function Completamiento() {
 
             <Tabs index={tabIndex} onChange={handleTabsChange}>
                 <TabList>
-                    <Tab>Primer paso</Tab>
-                    <Tab>Segundo paso</Tab>
-                    <Tab>Tercer paso</Tab>
+                    <Tab>Reemplazamos oferta</Tab>
+                    <Tab>Seleccionamos el producto</Tab>
+                    <Tab>Cargamos el completamiento</Tab>
                 </TabList>
                 <TabPanels>
                     <TabPanel>
@@ -55,7 +55,8 @@ export default function Completamiento() {
                     </TabPanel>
                     <TabPanel>
                         <Text fontSize='md' fontWeight='600' p={2} aling='center'>
-                            Y agregamos la TV como SVA (al igual que en un alta nueva el descuento de los primeros tres meses se carga automaticamente y podemos visualizarlo tildando "Mostrar detalles de precio")
+                            Y agregamos la TV como SVA (al igual que en un alta nueva el descuento de los primeros tres meses se carga automaticamente y podemos visualizarlo tildando "Mostrar detalles de precio").<br/>
+                            En este caso no se aplica el descuento de 23 meses, solamente los 3 meses gratis de TV.
                         </Text>
                         <img src={completamiento3} />
                     </TabPanel>
