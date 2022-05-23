@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { ColorModeSwitcher } from './ColorModeSwitcher';
+import Menu from './components/Menu';
+import {useColorModeValue, Grid} from '@chakra-ui/react';
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Grid p={1} bg={useColorModeValue('gray.100', 'gray.700')}>
+
+      <ColorModeSwitcher justifySelf="flex-end"  />
+      {/*boton switch  dark/light mode*/}
+
+      
+      <Menu m={5} justifySelf="flex-center"/>
+
+    </Grid >
+
+      );
 }
 
-export default App;
+      export default App;
