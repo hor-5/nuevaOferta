@@ -7,6 +7,7 @@ import {
     TabPanels,
     TabPanel,
     Text,
+    SimpleGrid,
 } from '@chakra-ui/react'
 
 export default function TutorialT3() {
@@ -34,44 +35,64 @@ export default function TutorialT3() {
 
                 <Tabs index={tabIndex} onChange={handleTabsChange}>
                     <TabList>
-                        <Tab>Primer paso</Tab>
-                        <Tab>Segundo</Tab>
-                        <Tab>Tercero</Tab>
+                        <Tab>Primera etapa </Tab>
+                        <Tab>Segunda etapa </Tab>
+                        <Tab>Tercera etapa </Tab>
                     </TabList>
                     <TabPanels>
                         <TabPanel>
-                            <Text fontSize='md'>
+                            <Text fontSize='md' fontWeight='600' p={2} aling='center'>
                                 Seleccionamos el plan de internet que vamos a cargar.
                                 No importa si es con Tv o sin Tv, ahora Tv lo vendemos como SVA(servicio de valor agregado)
                                 Por lo que de ser necesario lo vamos a agregar más adelante.
+                                Tv sigue siendo con debito obligatorio pero ya no hay bono por Debito automatico.
+                                Para la carga de ADSL/VDSL selecionar "Plan Movistar Internet".
                             </Text>
                             <img
 
-                                src='https://i.ibb.co/NT7K2K7/1erpaso-T3.png'
+                                src='https://i.ibb.co/R6PwkHw/primera-Etapa.jpg'
                                 alt='1er paso'
 
                             />
                         </TabPanel>
                         <TabPanel>
-                            <Text>
-                                Al ingresar a la carga ya nos va a traer el bono correspondiente automaticamente
+                            <Text fontSize='md' fontWeight='600' p={2} aling='center'>
+                                Para ADSL el costo de instalación sigue siendo $4000.<br />
+                                Hay que cargar manualmente el mes gratis como siempre, y al validar y calcular aplica el bono automaticamente.<br />
+                                Si no lo tildan no pasa nada, lo aplica igual, esto es solamente poder visualizarlo.
+                                Para que se visualice ok el bono de los 3 meses gratis de TV, pueden tildar "mostrar detalle de precios".
                                 $2000 por 24 meses normalmente y $2500 si es zona de competencia.
                                 Los bonos de totalización son de $400 (100mb o menor velocidad) y $700 ahora (a partir de 300mb).
                             </Text>
-                            <img
+                            <SimpleGrid columns={2} spacing={10}>
+                                <img
 
-                                src='https://i.ibb.co/XjmkS1y/2dopaso-T3.png'
-                                alt='2do paso'
+                                    src='https://i.ibb.co/VCqTfBZ/segunda-Etapa.jpg'
+                                    alt='2do paso'
 
-                            />
+                                />
+                                <img
+
+                                    src='https://i.ibb.co/TWvcvhf/segunda-Etapa2.jpg'
+                                    alt='2do paso'
+
+                                />
+                            </SimpleGrid>
                         </TabPanel>
                         <TabPanel>
-                            <Text>
-                                Ahora tenemos dos opciones de tv:
-                                Tv Digital (31 canales) o TV Max (93 canales).
-                                Se puede ofrecer sin decos o con hasta 3 decos y el valor adicional
+                            <Text fontSize='md' fontWeight='600' p={2} aling='center'>
+                                En el caso de que el cliente quiera TV, ahora tenemos dos opciones:<br />
+                                Tv Digital (31 canales) o TV Max (93 canales).<br />
+                                Se puede ofrecer con hasta 3 decos o sin decos (Movistar play) y el valor adicional
                                 por decodificador es de $590.
                                 Ya viene configurado el descuento por 3 meses en la tv.
+                                <br />
+                                <br />
+                                Si el cliente quiere agregar algún Pack premium:<br />
+                                ⚽ Pack Futbol 3 meses bonificado para centrales CLARO<br />
+                                🎞️ HBO 50% de descuento por 2 meses<br />
+                                ✏️ Continuamos con Amazon prime 3 meses sin cargo, Invita Movistar!<br />
+
                             </Text>
                             <img
 

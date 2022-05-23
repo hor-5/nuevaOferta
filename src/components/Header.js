@@ -87,24 +87,25 @@ export default function WithSpeechBubbles() {
       <Container maxW={'7xl'} py={16} as={Stack} spacing={12}>
         <Stack spacing={0} align={'center'}>
           <Heading>Guia rápida propuesta de valor</Heading>
-          <Text>Algunos tips para PVD </Text>
+          <Text>Algunos tips para PDV </Text>
         </Stack>
         <Stack
           direction={{ base: 'column', md: 'row' }}
           spacing={{ base: 10, md: 4, lg: 10 }}>
+ 
           <Testimonial>
             <TestimonialContent>
               <TestimonialHeading>No más procentajes</TestimonialHeading>
               <TestimonialText>
-                Ahora el descuento es de $2000 por 24 meses para todos los productos, y se aplica
+                Ahora el descuento es de $2000 por 23 meses para todos los productos, y se aplica
                 al Fullprice de cada producto.
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                'https://cdn.icon-icons.com/icons2/2645/PNG/512/exclamation_icon_160163.png'
+                'https://i.ibb.co/Wxy1NDq/exclamation-icon.png'
               }
-              name={'$2000 por 24 meses'}
+              name={'$2000 por 23 meses'}
               title={'$2500 si el domicilio es zona de competencia(Claro)'}
             />
           </Testimonial>
@@ -117,9 +118,9 @@ export default function WithSpeechBubbles() {
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                'https://cdn.icon-icons.com/icons2/2645/PNG/512/exclamation_icon_160163.png'
+                'https://i.ibb.co/Wxy1NDq/exclamation-icon.png'
               }
-              name={'Televisión como SVA'}
+              name='Televisión como SVA'
               title={'Tv Digital y Tv Max son las nuevas opciones.'}
             />
           </Testimonial>
@@ -128,12 +129,12 @@ export default function WithSpeechBubbles() {
               <TestimonialHeading>Hasta 3 decodificadores</TestimonialHeading>
               <TestimonialText>
                 La tv se puede ofrecer ahora con hasta 3 decos, y sin ningún deco también(Movistar play).
-                Además tv se ofrece con 3 meses gratis.
+                Además tv se ofrece con 3 meses gratis y debito automatico obligatorio(Ya no hay bono por DA)
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                'https://cdn.icon-icons.com/icons2/2645/PNG/512/exclamation_icon_160163.png'
+                'https://i.ibb.co/Wxy1NDq/exclamation-icon.png'
               }
               name={'$590 c/u, sin decos bonificados'}
               title={'Hasta 3 decos y con baseport incluido apartir del segundo'}
