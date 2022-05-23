@@ -37,7 +37,7 @@ export default function TutorialT3() {
                     <TabList>
                         <Tab>Seleccionamos el plan de internet </Tab>
                         <Tab>Cargamos </Tab>
-                        <Tab>Agregar TV </Tab>
+                        <Tab>Agregamos TV </Tab>
                     </TabList>
                     <TabPanels>
                         <TabPanel>
