@@ -42,10 +42,10 @@ export default function TutorialT3() {
                     <TabPanels>
                         <TabPanel>
                             <Text fontSize='md' fontWeight='600' p={2} aling='center'>
-                                Seleccionamos el plan de internet que vamos a cargar.
+                                Seleccionamos el plan de internet que vamos a cargar.<br />
                                 No importa si es con Tv o sin Tv, ahora Tv lo vendemos como SVA(servicio de valor agregado)
-                                Por lo que de ser necesario lo vamos a agregar más adelante.
-                                Tv sigue siendo con debito obligatorio pero ya no hay bono por Debito automatico.
+                                Por lo que de ser necesario lo vamos a agregar más adelante.<br />
+                                Tv sigue siendo con debito obligatorio pero ya no hay bono por Debito automatico.<br />
                                 Para la carga de ADSL/VDSL selecionar "Plan Movistar Internet".
                             </Text>
                             <img
