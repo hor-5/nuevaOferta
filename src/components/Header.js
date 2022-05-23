@@ -97,7 +97,7 @@ export default function WithSpeechBubbles() {
             <TestimonialContent>
               <TestimonialHeading>No más procentajes</TestimonialHeading>
               <TestimonialText>
-                Ahora el descuento es de $2000 por 24 meses para todos los productos, y se aplica
+                Ahora el descuento es de $2000 por 23 meses para todos los productos, y se aplica
                 al Fullprice de cada producto.
               </TestimonialText>
             </TestimonialContent>
@@ -105,7 +105,7 @@ export default function WithSpeechBubbles() {
               src={
                 'https://i.ibb.co/Wxy1NDq/exclamation-icon.png'
               }
-              name={'$2000 por 24 meses'}
+              name={'$2000 por 23 meses'}
               title={'$2500 si el domicilio es zona de competencia(Claro)'}
             />
           </Testimonial>

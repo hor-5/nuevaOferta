@@ -81,7 +81,7 @@ export default function ProductCard(props) {
 
                         </Stack>
                         <Text color={'gray.500'} fontSize={'sm'} textTransform={'uppercase'}>
-                            ${props.descount} de descuento por 24 meses
+                            ${props.descount} de descuento por 23 meses
                         </Text>
                     </Stack>
                     <Divider m={2} />
