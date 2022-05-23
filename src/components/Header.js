@@ -9,6 +9,7 @@ import {
   Avatar,
   useColorModeValue,
 } from '@chakra-ui/react';
+import exclamation from '../img/exclamation-icon.png';
 
 const Testimonial = ({ children }) => {
   return <Box>{children}</Box>;
@@ -103,7 +104,7 @@ export default function WithSpeechBubbles() {
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                'https://i.ibb.co/Wxy1NDq/exclamation-icon.png'
+                exclamation
               }
               name={'$2000 por 23 meses'}
               title={'$2500 si el domicilio es zona de competencia(Claro)'}
@@ -118,7 +119,7 @@ export default function WithSpeechBubbles() {
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                'https://i.ibb.co/Wxy1NDq/exclamation-icon.png'
+                exclamation
               }
               name='Televisión como SVA'
               title={'Tv Digital y Tv Max son las nuevas opciones.'}
@@ -134,7 +135,7 @@ export default function WithSpeechBubbles() {
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                'https://i.ibb.co/Wxy1NDq/exclamation-icon.png'
+                exclamation
               }
               name={'$590 c/u, sin decos bonificados'}
               title={'Hasta 3 decos y con baseport incluido apartir del segundo'}

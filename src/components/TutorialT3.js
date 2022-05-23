@@ -9,6 +9,10 @@ import {
     Text,
     SimpleGrid,
 } from '@chakra-ui/react'
+import primeraEtapa from '../img/primeraEtapa.jpg'
+import segundoEtapa from '../img/segundaEtapa.jpg'
+import segundaEtapa2 from '../img/segundaEtapa2.jpg'
+import terceraEtapa from '../img/terceraEtapa.png'
 
 export default function TutorialT3() {
 
@@ -50,8 +54,8 @@ export default function TutorialT3() {
                             </Text>
                             <img
 
-                                src='https://i.ibb.co/R6PwkHw/primera-Etapa.jpg'
-                                alt='1er paso'
+                                src={primeraEtapa}
+                                alt='primera etapa'
 
                             />
                         </TabPanel>
@@ -67,14 +71,14 @@ export default function TutorialT3() {
                             <SimpleGrid columns={2} spacing={10}>
                                 <img
 
-                                    src='https://i.ibb.co/VCqTfBZ/segunda-Etapa.jpg'
-                                    alt='2do paso'
+                                    src={segundoEtapa}
+                                    alt='segunda etapa'
 
                                 />
                                 <img
 
-                                    src='https://i.ibb.co/TWvcvhf/segunda-Etapa2.jpg'
-                                    alt='2do paso'
+                                    src={segundaEtapa2}
+                                    alt='segunda etapa'
 
                                 />
                             </SimpleGrid>
@@ -96,8 +100,8 @@ export default function TutorialT3() {
                             </Text>
                             <img
 
-                                src='https://i.ibb.co/Dk9YczY/3erpaso-T3.png'
-                                alt='3er paso'
+                                src={terceraEtapa}
+                                alt='tercera etapa'
 
                             />
                         </TabPanel>

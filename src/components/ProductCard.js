@@ -13,10 +13,11 @@ import {
     Divider,
 } from "@chakra-ui/react"
 import { MinusIcon } from "@chakra-ui/icons"
+import movistar from "../img/movistar.png"
 
 export default function ProductCard(props) {
 
-    const IMAGE = "https://i.pinimg.com/originals/dc/d9/41/dcd941ab9d0fe15b131cdfeab00ee5d6.png"
+    
     return (
         <>
             <Center py={12}>
@@ -43,7 +44,7 @@ export default function ProductCard(props) {
                             pos: 'absolute',
                             top: 5,
                             left: 0,
-                            backgroundImage: `url("${IMAGE}")`,
+                            backgroundImage: `url("${movistar}")`,
                             filter: 'blur(10px)',
                             zIndex: -1,
                         }}
@@ -57,7 +58,7 @@ export default function ProductCard(props) {
                             height={230}
                             width={282}
                             objectFit={'cover'}
-                            src={IMAGE}
+                            src={movistar}
                         />
                     </Box>
 
