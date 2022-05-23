@@ -14,6 +14,8 @@ import segundoEtapa from '../img/segundaEtapa.jpg'
 import segundaEtapa2 from '../img/segundaEtapa2.jpg'
 import terceraEtapa from '../img/terceraEtapa.png'
 
+import Completamiento from './Completamiento'
+
 export default function TutorialT3() {
 
     const [tabIndex, setTabIndex] = useState(0)
@@ -42,6 +44,7 @@ export default function TutorialT3() {
                         <Tab>Seleccionamos el plan de internet </Tab>
                         <Tab>Cargamos </Tab>
                         <Tab>Agregamos TV </Tab>
+                        <Tab>Completamiento</Tab>
                     </TabList>
                     <TabPanels>
                         <TabPanel>
@@ -65,8 +68,8 @@ export default function TutorialT3() {
                                 Hay que cargar manualmente el mes gratis como siempre, y al validar y calcular aplica el bono automaticamente "Promo Individuo 1x100%".<br />
                                 Si no lo tildan no pasa nada, lo aplica igual, esto es solamente para poder visualizarlo.
                                 Para que se visualice ok el bono de los 3 meses gratis de TV, pueden tildar "mostrar detalle de precios".
-                                $2000 por 24 meses normalmente y $2500 si es zona de competencia.
-                                Los bonos de totalización son de $400 (100mb o menor velocidad) y $700 ahora (a partir de 300mb).
+                                $2000 por 24 meses normalmente y $2500 si es zona de competencia.<br/>
+                                Los bonos de totalización son de $400 (100mb o menor velocidad) y $700 ahora (a partir de 300mb) y duran mientras el cliente mantenga los dos servicios contratados (hogar y movil), ya no es por un solo año.
                             </Text>
                             <SimpleGrid columns={2} spacing={10}>
                                 <img
@@ -104,6 +107,11 @@ export default function TutorialT3() {
                                 alt='tercera etapa'
 
                             />
+                        </TabPanel>
+                        <TabPanel>
+
+                            <Completamiento/>
+
                         </TabPanel>
                     </TabPanels>
                 </Tabs>

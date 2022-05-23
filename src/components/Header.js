@@ -112,7 +112,7 @@ export default function WithSpeechBubbles() {
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>Fibra como protagonista</TestimonialHeading>
+              <TestimonialHeading>Fibra como<br/> protagonista</TestimonialHeading>
               <TestimonialText>
                 El internet es la estrella, y la tv se ofrece como servicio de valor agregado (SVA)
               </TestimonialText>
@@ -129,7 +129,7 @@ export default function WithSpeechBubbles() {
             <TestimonialContent>
               <TestimonialHeading>Hasta 3 decodificadores</TestimonialHeading>
               <TestimonialText>
-                La tv se puede ofrecer ahora con hasta 3 decos, y sin ningún deco también(Movistar play).
+                La tv se puede ofrecer ahora con hasta 3 decos,<br/>O si el cliente tiene tv Smart puede pedir el servicio sin decos y utilizar la app Movistar play.
                 Además tv se ofrece con 3 meses gratis y debito automatico obligatorio(Ya no hay bono por DA)
               </TestimonialText>
             </TestimonialContent>
