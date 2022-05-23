@@ -41,19 +41,26 @@ export default function Cotizador(){
     const hasTv = () => {
       setActive(!active)
       setProducts(tvDigital)
-  
+
+      showToastProduct()  
     }
+
     const noTv = () => {
       setActive(!active)
       setProducts(internet)
       if (tvMaxActive) { setTvMaxActive(!tvMaxActive) }
+
+      showToastProduct()
     }
   
     const tvMaxSelected = () => {
       setTvMaxActive(!tvMaxActive)
       tvMaxActive? setProducts(tvDigital): setProducts(tvMax)
+
+      showToastProduct()
     }
-  
+    
+    //Toast notifications
     const showToast = (msg) => {
       toast({
         title: 'Cantidad de decodificadores excedida',
@@ -63,6 +70,17 @@ export default function Cotizador(){
         isClosable: true,
       })
     }
+
+    const showToastProduct = (msg)=>{
+      toast({
+        title: 'Producto actualizado',
+        description: 'Ya puede visualizar los valores actualizados',
+        status: 'success',
+        duration: 1500,
+        isClosable: true,
+      })
+    }
+    //End toast notifications
   
     const aumentarContadorDecos = () => {
       if (contadorDecos === 3) {
