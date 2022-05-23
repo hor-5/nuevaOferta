@@ -80,6 +80,16 @@ export default function Cotizador(){
         isClosable: true,
       })
     }
+
+    const showToastDescount = (d) => {
+      toast({
+        title: 'Descuento actualizado',
+        description: 'Ahora el descuento es de $' +d+' por 23 meses',
+        status: 'success',
+        duration: 2000,
+        isClosable: true,
+      })
+    }
     //End toast notifications
   
     const aumentarContadorDecos = () => {
@@ -101,15 +111,7 @@ export default function Cotizador(){
   
     useEffect(() => { }, [contadorDecos])
   
-    const showToastDescount = (d) => {
-      toast({
-        title: 'Descuento actualizado',
-        description: 'Ahora el descuento es de $' +d+' por 23 meses',
-        status: 'success',
-        duration: 2000,
-        isClosable: true,
-      })
-    }
+
   
     const changeDescount = () => {    
       if(descount === 2000){ 
