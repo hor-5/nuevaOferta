@@ -73,25 +73,25 @@ export const tvMax=[
     {
       id: 2,
       name: 'Plan Movistar Fibra 100Mb +Tv Max',
-      price: 4199 + 1200,
+      price: 4199 + 1999,
       totalization:400,
     },
     {
       id: 3,
       name: 'Plan Movistar Fibra 300Mb +Tv Max',
-      price: 4899 + 1200,
+      price: 4899 + 1999,
       totalization: 700,
     },
     {
       id: 4,
       name: 'Plan Movistar Fibra 500Mb +Tv Max',
-      price: 5699 + 1200,
+      price: 5699 + 1999,
       totalization: 700,
     },
     {
       id: 5,
       name: 'Plan Movistar Fibra GIGA +Tv Max',
-      price: 7199 + 1200,
+      price: 7199 + 1999,
       totalization: 700,
     },
   ];

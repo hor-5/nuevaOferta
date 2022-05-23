@@ -55,7 +55,7 @@ export default function TutorialT3() {
                         <TabPanel>
                             <Text>
                                 Al ingresar a la carga ya nos va a traer el bono correspondiente automaticamente
-                                $2000 por 24 meses normalmente y $2500 si es zona de compentencia.
+                                $2000 por 24 meses normalmente y $2500 si es zona de competencia.
                                 Los bonos de totalización son de $400 (100mb o menor velocidad) y $700 ahora (a partir de 300mb).
                             </Text>
                             <img
@@ -68,7 +68,7 @@ export default function TutorialT3() {
                         <TabPanel>
                             <Text>
                                 Ahora tenemos dos opciones de tv:
-                                Tv Digital (39 canales) o TV Max (97 canales).
+                                Tv Digital (31 canales) o TV Max (93 canales).
                                 Se puede ofrecer sin decos o con hasta 3 decos y el valor adicional
                                 por decodificador es de $590.
                                 Ya viene configurado el descuento por 3 meses en la tv.
