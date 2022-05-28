@@ -138,7 +138,7 @@ export default function WithSpeechBubbles() {
                 exclamation
               }
               name={'$590 c/u, sin decos bonificados'}
-              title={'Hasta 3 decos y con baseport incluido apartir del segundo'}
+              title={'Hasta 3 decos y con baseport incluido a partir del segundo'}
             />
           </Testimonial>
         </Stack>
