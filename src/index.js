@@ -1,4 +1,4 @@
-import { ColorModeScript, ChakraProvider,useColorModeValue } from '@chakra-ui/react';
+import { ColorModeScript, ChakraProvider } from '@chakra-ui/react';
 import React,{StrictMode} from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';

@@ -45,20 +45,20 @@ export default function Completamiento() {
                             Se realiza por reemplazo de oferta, vamos a Reemplazar ofertas y productos, 
                             como veniamos haciendo hasta ahora.
                         </Text>
-                        <img src={completamiento1} />
+                        <img alt="Movistar" src={completamiento1} />
                     </TabPanel>
                     <TabPanel>
                         <Text fontSize='md' fontWeight='600' p={2} aling='center'>
                             Seleccionamos la nueva oferta.
                         </Text>
-                        <img src={completamiento2} />
+                        <img alt="Movistar" src={completamiento2} />
                     </TabPanel>
                     <TabPanel>
                         <Text fontSize='md' fontWeight='600' p={2} aling='center'>
                             Y agregamos la TV como SVA (al igual que en un alta nueva el descuento de los primeros tres meses se carga automaticamente y podemos visualizarlo tildando "Mostrar detalles de precio").<br/>
                             En este caso no se aplica el descuento de 23 meses, solamente los 3 meses gratis de TV.
                         </Text>
-                        <img src={completamiento3} />
+                        <img alt="Movistar" src={completamiento3} />
                     </TabPanel>
                 </TabPanels>
             </Tabs>

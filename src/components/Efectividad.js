@@ -1,12 +1,11 @@
-import React,{useEffect, useState} from 'react'
+import React,{useState} from 'react'
 import {
     Button,
     Flex,
     FormControl,
     FormLabel,
     Heading,
-    Input,
-    Link,
+    Input,    
     Stack,
     Text,
   } from '@chakra-ui/react';

@@ -97,7 +97,7 @@ export default function Cotizador(){
         showToast('Puede pedir hasta 3 decodificadores')
       } else {
         setContadorDecos(contadorDecos + 1)
-        setValorDecos(valorDecos += 590)
+        setValorDecos(valorDecos += 690)
       }
     }
     const disminuirContadorDecos = () => {
@@ -105,7 +105,7 @@ export default function Cotizador(){
         showToast('No puede tener menos decodificadores')
       } else {
         setContadorDecos(contadorDecos - 1)
-        setValorDecos(valorDecos -= 590)
+        setValorDecos(valorDecos -= 690)
       }
     }
   
